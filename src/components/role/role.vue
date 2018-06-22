@@ -118,12 +118,15 @@ export default {
       */
     getInfo() {
       this.$http
-        .get("/hxmback/api/Role/GetRoles", {
-          params: {
-            pageIndex: this.pageIndex,
-            pageSize: this.pageSize
-          }
-        })
+        .get("../../../static/JSON/Roles.json"
+        //   "/hxmback/api/Role/GetRoles", 
+        // {
+        //   params: {
+        //     pageIndex: this.pageIndex,
+        //     pageSize: this.pageSize
+        //   }
+        // }
+        )
         .then(
           function(response) {
             var status = response.data.Status;

@@ -1,0 +1,32 @@
+{
+  "Status": 1,
+  "Result": {
+    "Page": 3,
+    "IsNext": true,
+    "List": [{
+      "ID": "4f228b67-6710-e811-9500-e81f785e3a69",
+      "Image": "https://api.huangxiaoming.com.cn//Uploads/BannerImage/20180213/669e2e98-d4fd-4ee5-9321-4e0f875549c0.jpg",
+      "Type": 2,
+      "Url": "",
+      "IsJump": false
+    }, {
+      "ID": "a0475960-6710-e811-9500-e81f785e3a69",
+      "Image": "https://api.huangxiaoming.com.cn//Uploads/BannerImage/20180213/57be6ec0-783d-430c-b204-55380c149e67.jpg",
+      "Type": 2,
+      "Url": "",
+      "IsJump": false
+    }, {
+      "ID": "9f475960-6710-e811-9500-e81f785e3a69",
+      "Image": "https://api.huangxiaoming.com.cn//Uploads/BannerImage/20180213/f1e38967-8fa2-4d2d-9d89-7374b5d5c4ef.jpg",
+      "Type": 2,
+      "Url": "",
+      "IsJump": false
+    }, {
+      "ID": "ca7392f1-040b-e811-9500-e81f785e3a69",
+      "Image": "https://api.huangxiaoming.com.cn//Uploads/BannerImage/20180212/a5809547-4067-4c8f-8151-26628fc9566f.jpg",
+      "Type": 0,
+      "Url": "",
+      "IsJump": false
+    }]
+  }
+}

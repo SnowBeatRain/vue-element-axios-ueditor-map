@@ -1,0 +1,19 @@
+{
+  "Status": 1,
+  "Result": {
+    "data": [{
+      "ID": "cf07685e-7a47-e711-9d25-00e070110b98",
+      "Name": "test",
+      "IsLock": false,
+      "Role": "平台管理员",
+      "CreateTime": "2017-06-02T18:01:02.3361147"
+    }, {
+      "ID": "03a40c61-835b-e811-86f5-cad0d61b6f66",
+      "Name": "暗黑星辰",
+      "IsLock": false,
+      "Role": "平台管理员",
+      "CreateTime": "2018-05-20T00:40:47.1549411"
+    }],
+    "PageIndex": 4
+  }
+}

@@ -1,0 +1,124 @@
+body,html,h3,input,i,span,a,li,p,td,th,div,header,textarea,ul{margin:0;padding: 0;}
+body,html{height: 100%;}
+a{text-decoration:none;}
+a:hover{cursor: pointer;}
+li{list-style-type: none;}
+body{font-family:"微软雅黑", "Helvetica Neue", Helvetica, Arial, sans-serif;min-width: 1200px;}
+div,input,span,a,li,p,i,textarea,ul{box-sizing:border-box }
+.left{float: left}
+.right{float:right;}
+@font-face {font-family: "iconfont";
+  src:url('../fonts/iconfont.ttf') format('truetype') /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:25px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-mima:before { content: "\e616"; }
+.icon-tuichu1:before { content: "\e605"; }
+.icon-yonghu:before { content: "\e604"; }
+.icon-quxiao:before { content: "\e633"; font-size: 18px; }
+.icon-gouwu:before { content: "\e665"; }
+.icon-zhuye:before { content: "\e600"; color: #579fe9;font-size: 35px;}
+.back{height:100%;background: url("../images/bj2.png") no-repeat center;position: relative;width: 100%;min-width: 1200px;}
+.box{height: 500px;background: rgba(255,255,255,0.7);position: absolute;top:50%;margin-top:-250px;left: 0;width: 100%;min-width: 1200px;}
+.logobox{height: 500px;width: 1100px;margin:0 auto;overflow: hidden;}
+.logo{height: 260px;margin-top: 120px;width: 650px;background:#fff url("../images/logo.png") no-repeat center;float: left;padding-right: 60px}
+.form{width: 450px;height: 500px;background: #999;float:right;}
+.form h3{font-size: 35px;color:#fff;text-align: center;margin:50px 0 80px 0;letter-spacing: 4px;}
+.xu-input{width: 300px;height: 40px;background: #fff;margin:10px auto;}
+.xu-input input{width: 220px;height: 40px;font-size: 22px;border:none;outline: none;}
+.xu-input i{float: left;width: 40px;height: 40px;padding:6px;}
+.xu-input span{width: 40px;height: 40px;padding:10px;color: #ccc }
+.xu-input span:hover{color:#999;cursor:pointer;}
+.form a{width: 300px;height: 50px;background: #579fe9;color:#fff;margin-right: 0;color:#fff;font-size:30px;margin:0 auto;display: block;line-height: 50px;text-align: center;margin-top:50px;}
+.form a:hover{background: #1588d9;cursor:pointer;}
+
+/*弹出层*/
+.fixedbox{position: fixed;width: 100%;height: 100%;top:0;background: rgba(0,0,0,0.6);display: none;}
+.addbox{width: 600px;height: 200px;background: #fff;margin:20% auto 0 auto;overflow: hidden;}
+.addbox input{display: block;width: 500px;height: 40px;border-radius: 4px;margin: 50px auto 0 auto;font-size: 16px;padding:0 10px;}
+.addbox button{padding:10px 20px;background:#579fe9;color:#fff;outline: none;border:none;font-size: 18px;margin-top: 20px;margin-right:50px;float: right; }
+/*page1*/
+header{height: 100px;background: #579fe9}
+.contbox{overflow: hidden;width: 100%;}
+.head{line-height: 100px;color:#fff;}
+.headLeft{float: left;font-size: 30px;background: url("../images/bs_logo.png") no-repeat left center;padding-left: 100px;margin-left: 50px;}
+.headRight{float: right;font-size: 20px;margin-right: 50px;}
+.aside{width: 16%;background: #374254;float: left;min-height: 870px;}
+.aside li{border-bottom: 1px #ccc solid;}
+.aside li:hover{cursor: pointer;}
+.aside li i{width: 50px;height: 50px;color:#fff;font-size:30px; margin: 10px 10px 0 0;}
+.aside li{color:#fff;font-size:25px;overflow: hidden;height: 80px;line-height: 80px;text-align: center;}
+.aside li span{display: inline-block;margin:0 auto;}
+.xu-active{background: #222b3a}
+.content{float:left;width:84%;background: #efefef;height: 100%;min-height: 870px;}
+.contHead{height: 50px;overflow: hidden;width: 100%;line-height: 50px;font-size: 20px;background: #fff}
+.contHead i{margin-right: 10px;}
+.CheadLeft{margin-left: 40px;}
+.CheadRight{margin-right: 40px;}
+.search{overflow: hidden;}
+.search p,.search span{display: inline-block;}
+.search input{width: 360px;height: 40px;outline: none;border-radius: 30px;border:none;font-size: 25px;padding: 0 20px 0 17px;}
+.search a{padding:8px 20px; color:#fff;border-radius:30px;font-size: 16px;margin-left: 20px}
+.add a{padding:8px 20px;font-size: 16px;border-radius:30px; color:#579fe9;border:1px solid #579fe9; }
+table{width: 94%;margin:0 auto;border: 1px #ccc solid;    border-collapse: collapse;proedit}
+thead{background-color: #f3f3f3;font-size: 20px;}
+thead th{font-weight: 400;height: 50px;}
+.xu-table tbody td{font-weight: 400; font-size: 18px;height: 130px;text-align: center;}
+.proname{padding :0 50px ;}
+tbody td a{color:#fff;font-size: 16px;padding:4px 16px;margin:0 5px;}
+.img{width:100px;height: 100px;display: block;margin:0 auto;border:2px #ccc dashed;overflow: hidden;}
+.img img{width: 100%;height: 100%;}
+tbody tr:nth-child(n){background: #fff;}
+tbody tr:nth-child(2n){background: #f2f8ff;}
+.star{width:140px;height: 23px;display: block;margin:0 auto;}
+.star i{width: 23px;height: 23px;display: inline-block;background-image: url("../images/star.png") ;background-repeat: no-repeat;}
+.star1{background-position:  0 0;}
+.star0{background-position:  -28px 0;}
+tfoot tr{background:#fff;height:80px;border-top: 1px #579fe9 solid;text-align: right;}  
+.pagination-holder{display: inline-block;}
+.current{background:#579fe9 !important;border-color:#579fe9 !important;}
+.prodel{background:red;}
+.proedit{background:#579fe9;}
+.sure{background: green;display: none;}
+.light-pagination{padding:normal !important;}
+/*fenlei*/
+.icon-fenlei:before { content: "\e634"; }
+/*addguanli*/
+.guanliadd{overflow: hidden;background: #fff;width: 100%;min-height:770px;}
+.addaside{width: 30%;max-width:340px;float: left;}
+.select{width: 250px;margin: 0 auto;display: block;height: 40px; font-size: 18px;padding:0 5px;}
+.addaside select{width: 250px;font-size: 18px;position: absolute;top: 40px;display: none;left:50%;margin-left: -125px;}
+.price{width: 250px;margin: 20px auto;display: block;height: 40px; font-size: 18px;padding:0 5px;}
+.addaside textarea,.chuxing textarea{width: 250px;margin: 20px auto;display: block;height: 100px;font-size: 16px;padding:5px;resize: none;}
+.isadd h3{font-size: 22px;font-weight: normal;}
+.isadd{margin:0 25px;}
+.isadd li{margin-top:10px;height: 30px; font-size: 20px;overflow: hidden;}
+.isadd li input{width: 20px;height: 20px;}
+.isadd li:hover{cursor:pointer;}
+.addimg{width: 250px;height: 250px;margin:20px auto 0 auto;border:2px #ccc dashed;position: relative;}
+.addimg input{width: 250px;height: 250px;outline: none;opacity: 0;position: absolute;z-index: 10}
+.addimg span{background: #ccc;position: absolute;top:50% ;left: 50%;}
+.add1{width: 120px;height: 10px;margin-top: -5px;margin-left:-60px;}
+.add2{width: 10px;height: 120px;margin-top:-60px;margin-left: -5px;}
+.image{width: 250px;height: 250px;position: absolute;z-index: 5;border:0;}
+.add-button{padding:10px 20px;background:#579fe9;border:none;outline: none;color:#fff;margin-top:20px; float: right}
+
+/*出行添加*/
+.chuxing{width: 30%;float: left;max-width: 350px;}
+.add1-aside select{width: 250px;font-size: 18px;position: absolute;top: 40px;display: none;z-index: 999;left:50%;margin-left: -125px;}
+.add1-type select{width: 250px;font-size: 18px;margin:0 auto;display: block;margin-top: 20px;}
+.add1-idadd h3{width: 250px;margin: 0 auto;}
+.add1-idadd li{display: inline-block;padding:0 0 0 20px;}
+.add1-logo h3{width: 250px;font-size: 18px;margin:0 auto;}
+.add1-img{width: 140px;height: 140px;margin:10px auto 0 auto;border:2px #ccc dashed;position: relative;}
+.add1-img input{width: 140px;height: 140px;outline: none;opacity: 0;position: absolute;z-index: 10}
+.add1-img span{background: #ccc;position: absolute;top:50% ;left: 50%;}
+.add1-su{width: 60px;height: 6px;margin-top: -3px;margin-left:-30px;}
+.add1-heng{width: 6px;height: 60px;margin-top:-30px;margin-left: -3px;}
+.add1-image{width: 140px;height: 140px;position: absolute;z-index: 5;border:0;}

@@ -1,0 +1,40 @@
+{
+  "Status": 1,
+  "Result": [{
+    "name": "人员管理",
+    "snippet": [{
+      "title": "管理员管理",
+      "urlf": "manage.html"
+    }]
+  }, {
+    "name": "权限管理",
+    "snippet": [{
+      "title": "角色管理",
+      "urlf": "role.html"
+    }]
+  }, {
+    "name": "Banner管理  ",
+    "snippet": [{
+      "title": "Banner列表",
+      "urlf": "B_GetBannerList.html"
+    }]
+  },{
+    "name": "商品管理 ",
+    "snippet": [{
+      "title": "商品列表",
+      "urlf": "P_GetProductList.html"
+    }]
+  }, {
+    "name": "订单管理",
+    "snippet": [{
+      "title": "订单列表",
+      "urlf": "O_GetOrderList.html"
+    }]
+  }, {
+    "name": "地图管理",
+    "snippet": [{
+      "title": "地图封装",
+      "urlf": "Map.html"
+    }]
+  }]
+}

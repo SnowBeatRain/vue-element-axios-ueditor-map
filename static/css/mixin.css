@@ -1,0 +1,21 @@
+.allcover {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.ctt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tb {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.lr {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
